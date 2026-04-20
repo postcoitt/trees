@@ -1,7 +1,7 @@
 '''
-dwed
+Tree traversal algorithms
 '''
-# properties of a node: data, left, right
+
 def pre_order(node):
     '''
     Returns the tree traversal in preorder
@@ -18,7 +18,6 @@ def pre_order(node):
     return lyst
 
 
-# In-order traversal
 def in_order(node):
     '''
     Returns the tree traversal in inorder
@@ -34,7 +33,6 @@ def in_order(node):
     recurse(node)
     return lyst
 
-# Post-order traversal
 def post_order(node):
     '''
     Returns the tree traversal in postorder
